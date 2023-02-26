@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
             setState(() {
               color= Color((math.Random().nextDouble()*0xFFFFFF).toInt()).withOpacity(1.0);
             });
-          },
+           },
           child: Container(
             width: double.infinity,
             height: double.infinity,
