@@ -28,7 +28,6 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: color,
       body: Center(
         child: GestureDetector(
           onTap: (){
@@ -37,13 +36,10 @@ class _HomePageState extends State<HomePage> {
             });
           },
           child: Container(
-            width: 100,
-            height: 40,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-              color: Colors.deepPurple
-            ),
-            child: const Center(child: const Text("press")),
+            width: double.infinity,
+            height: double.infinity,
+              color: color,
+            child: const Center(child: Text("Hey there")),
           ),
         ),
       ),
